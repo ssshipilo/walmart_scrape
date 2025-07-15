@@ -15,18 +15,20 @@ for import_name, install_name in required_modules.items():
         module_to_install = install_name if install_name else import_name
         subprocess.check_call([sys.executable, "-m", "pip", "install", module_to_install])
 
-import json
-import logging
 import re
-import requests
-import secrets
-import string
-import urllib.parse
+import json
 import uuid
-from typing import Optional
-from bs4 import BeautifulSoup
-import coloredlogs
 import time
+import string
+import logging
+import secrets
+import requests
+import urllib.parse
+from typing import Optional
+
+import coloredlogs
+from bs4 import BeautifulSoup
+
 
 class WalmartProductScraper:
     """

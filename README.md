@@ -28,7 +28,7 @@ No manual installation required! The script will automatically install the follo
 1. **Clone or Download the Repository**
 
    ```bash
-   https://github.com/ssshipilo/walmart_scrape.git
+   git clone https://github.com/ssshipilo/walmart_scrape.git
    cd walmart_test
    ```
 
